@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Design System CI-2025",
+  title: "Design System 2025",
   description: "Creating resonance between requirements and design to build intuitive experiences",
   base: '/vitepress-ds01/',
   head: [
@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Overview', link: '/vitepress-ds01/' },
       { text: 'Brand', link: '/brand' },
-      { text: 'Guildline', link: '/brand' },
+      { text: 'Guildline', link: '/color' },
       { text: 'UIKit', link: '/uikit' },
       { text: 'examples', 
         items: [
@@ -25,13 +25,42 @@ export default defineConfig({
 
     sidebar: [
       {
+        text:'Color 顏色',link: '/color',
+        collapsible: false,
+      },
+      {
+        text:'Typography 字體',link: '/typography',
+        collapsible: false,
+      },
+      {
+        text:'Icon 圖示',link: '/icon',
+        collapsible: false,
+      },
+      {
+        text:'Photo 照片',link: '/photo',
+        collapsible: false,
+      },
+      {
+        text:'Illustration 插圖',link: '/illustration',
+        collapsible: false,
+      },
+      {
+        text: 'Layout 佈局',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '官網', link: '/markdown-examples' },
+          { text: '行銷頁', link: '/api-examples' }
+        ]
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
        
         ]
-      }
+      },
     ],
 
     socialLinks: [
