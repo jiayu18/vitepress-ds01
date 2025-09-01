@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Design System CI"
   text: "Creating resonance between requirements and design to build intuitive experiences"
-  tagline: My great project tagline
+  tagline: 測試測試測試
   actions:
     - theme: brand
       text: Markdown Examples
