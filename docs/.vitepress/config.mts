@@ -11,14 +11,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Overview', link: '/vitepress/' },
-      { text: 'Brand', link: '/vitepress/brand' },
-      { text: 'Guildline', link: '/vitepress/brand' },
-      { text: 'UIKit', link: '/vitepress/uikit' },
+      { text: 'Overview', link: '/' },
+      { text: 'Brand', link: '/brand' },
+      { text: 'Guildline', link: '/brand' },
+      { text: 'UIKit', link: '/uikit' },
       { text: 'examples', 
         items: [
-          { text: '快速上手', link: '/vitepress/markdown-examples' },
-          { text: '前言', link: '/vitepress/preface' },
+          { text: '快速上手', link: '/markdown-examples' },
+          { text: '前言', link: '/preface' },
         ]
       }
     ],
@@ -27,8 +27,8 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/vitepress/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/vitepress/api-examples' }
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
@@ -43,11 +43,12 @@ export default defineConfig({
     search: { 
       provider: 'local'
     }, 
+    //上次更新时间
     lastUpdated: {
       text: '最后更新于',
       formatOptions: {
-        dateStyle: 'short', //full、long、medium、short
-        timeStyle: 'medium' //full、long、medium、short
+        dateStyle: 'short', // 可选值full、long、medium、short
+        timeStyle: 'medium' // 可选值full、long、medium、short
       },
     },
     docFooter: { 
