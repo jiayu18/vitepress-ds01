@@ -11,13 +11,13 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Overview', link: '/' },
+      { text: 'Overview', link: '/vitepress-ds01/' },
       { text: 'Brand', link: '/brand' },
       { text: 'Guildline', link: '/brand' },
       { text: 'UIKit', link: '/uikit' },
       { text: 'examples', 
         items: [
-          { text: '快速上手', link: '/markdown-examples' },
+          { text: '快速上手', link: '/vitepress-ds01/markdown-examples' },
           { text: '前言', link: '/preface' },
         ]
       }
