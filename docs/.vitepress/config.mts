@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Design System CI",
+  title: "Design System CI2025",
   description: "Creating resonance between requirements and design to build intuitive experiences",
   base: '/vitepress/',
   head: [
@@ -29,6 +29,7 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
+       
         ]
       }
     ],
