@@ -40,7 +40,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm # or pnpm / yarn
+          cache: npm
+          cache-dependency-path: docs/package-lock.json
+        # 同時需要設定工作目錄
+        jobs:
+          build:
+            runs-on: ubuntu-latest
+            defaults:
+              run:
+                working-directory: docs  # 在 docs 目錄執行命令
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
