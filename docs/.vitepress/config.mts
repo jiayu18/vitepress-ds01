@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Design System CI2025",
+  title: "Design System CI-2025",
   description: "Creating resonance between requirements and design to build intuitive experiences",
   base: '/vitepress-ds01/',
   head: [
