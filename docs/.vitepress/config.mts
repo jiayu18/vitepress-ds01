@@ -17,8 +17,8 @@ export default defineConfig({
       { text: 'UIKit', link: '/uikit' },
       { text: 'examples', 
         items: [
-          { text: '快速上手', link: '/vitepress-ds01/markdown-examples' },
-          { text: '前言', link: '/preface' },
+          { text: '快速上手', link: '/markdown-examples' },
+          { text: '前言', link: '/examples/1-1' },
         ]
       }
     ],
