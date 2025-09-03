@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e}from"./chunks/framework.DPkH3Wt3.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/navbar.md","filePath":"uikit/navbar.md","lastUpdated":null}'),r={name:"uikit/navbar.md"};function n(o,s,i,c,d,p){return e(),t("div")}const m=a(r,[["render",n]]);export{l as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.DPkH3Wt3.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/datepicker.md","filePath":"uikit/datepicker.md","lastUpdated":null}'),r={name:"uikit/datepicker.md"};function i(c,o,s,d,n,p){return a(),t("div")}const k=e(r,[["render",i]]);export{l as __pageData,k as default};

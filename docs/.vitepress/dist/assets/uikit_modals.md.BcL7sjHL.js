@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.DPkH3Wt3.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/modals.md","filePath":"uikit/modals.md","lastUpdated":null}'),o={name:"uikit/modals.md"};function s(r,d,i,n,c,l){return a(),e("div")}const _=t(o,[["render",s]]);export{p as __pageData,_ as default};

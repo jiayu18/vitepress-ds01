@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e}from"./chunks/framework.DPkH3Wt3.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/pagination.md","filePath":"uikit/pagination.md","lastUpdated":null}'),i={name:"uikit/pagination.md"};function n(o,r,s,p,c,d){return e(),a("div")}const m=t(i,[["render",n]]);export{l as __pageData,m as default};

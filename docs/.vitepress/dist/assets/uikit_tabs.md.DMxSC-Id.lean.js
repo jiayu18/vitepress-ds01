@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.DPkH3Wt3.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/tabs.md","filePath":"uikit/tabs.md","lastUpdated":null}'),s={name:"uikit/tabs.md"};function r(o,i,n,c,d,p){return a(),e("div")}const m=t(s,[["render",r]]);export{l as __pageData,m as default};
