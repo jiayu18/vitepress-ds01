@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.DPkH3Wt3.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/filters.md","filePath":"uikit/filters.md","lastUpdated":null}'),r={name:"uikit/filters.md"};function s(i,o,n,c,l,d){return a(),e("div")}const _=t(r,[["render",s]]);export{p as __pageData,_ as default};

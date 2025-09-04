@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.DPkH3Wt3.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/toasts.md","filePath":"uikit/toasts.md","lastUpdated":null}'),s={name:"uikit/toasts.md"};function o(r,i,n,c,d,p){return a(),e("div")}const m=t(s,[["render",o]]);export{l as __pageData,m as default};

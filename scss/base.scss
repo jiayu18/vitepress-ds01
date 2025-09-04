@@ -1,8 +1,9 @@
 //------------------------------
 //以上覆蓋
 //------------------------------
-
-
+.vp-doc a{
+    text-decoration:none;
+}
 //------------------------------
 //Base 基本樣式
 //------------------------------
@@ -40,7 +41,7 @@ sans-serif,
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    text-decoration: none;
+    text-decoration: none !important;
     border: none;
     margin: 8px;
     text-align: center;

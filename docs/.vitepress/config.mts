@@ -17,6 +17,7 @@ export default defineConfig({
       { text: 'UIKit', link: '/uikit/1-1' },
       { text: 'MD檔教學', 
         items: [
+          { text: 'Markdown 比較', link: '/examples/0-2' },
           { text: 'Markdown 快速開始', link: '/examples/0-1' }
         ]
       }

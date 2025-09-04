@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.DPkH3Wt3.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/chart.md","filePath":"uikit/chart.md","lastUpdated":null}'),r={name:"uikit/chart.md"};function c(o,s,i,n,d,p){return a(),e("div")}const m=t(r,[["render",c]]);export{l as __pageData,m as default};
