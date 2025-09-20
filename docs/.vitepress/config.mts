@@ -17,9 +17,14 @@ export default defineConfig({
       { text: 'UIKit', link: '/uikit/1-1' },
       { text: 'MD檔教學', 
         items: [
+<<<<<<< HEAD
           { text: '開發步驟', link: '/examples/0-2' },
           { text: '建立元件', link: '/examples/0-3' },
           { text: 'MD語法模板', link: '/examples/0-1' }
+=======
+          { text: 'Markdown 比較', link: '/examples/0-2' },
+          { text: 'Markdown 快速開始', link: '/examples/0-1' }
+>>>>>>> 6bc9e47b42c4aeff7f7e808807ca9b75c1ac9cc6
         ]
       }
     ],
