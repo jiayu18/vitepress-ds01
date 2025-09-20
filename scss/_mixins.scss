@@ -1,0 +1,24 @@
+//min-width
+@mixin min($breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
+//max-width
+@mixin max($breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
+//px-rem 
+@function px-rem($px) {
+    @if ($px==0) {
+        @return 0;
+    }
+
+    @else {
+        @return $px / $font-base * 1rem;
+    }
+}

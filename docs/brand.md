@@ -3,19 +3,24 @@
 layout: page
 sidebar: false
 ---
-
+<PricingTable/>
 
 > [!NOTE]
-> 强调用户在快速浏览文档时也不应忽略的重要信息。
+> 讓需求與設計產生共鳴，打造直覺體驗
 
 > [!TIP]
-> 有助于用户更顺利达成目标的建议性信息。
+> 讓需求與設計產生共鳴，打造直覺體驗
 
 > [!IMPORTANT]
-> 对用户达成目标至关重要的信息。
+> 讓需求與設計產生共鳴，打造直覺體驗
 
 > [!WARNING]
-> 因为可能存在风险，所以需要用户立即关注的关键内容。
+> 讓需求與設計產生共鳴，打造直覺體驗
 
 > [!CAUTION]
-> 行为可能带来的负面影响。
+> 讓需求與設計產生共鳴，打造直覺體驗
+
+>
+<script setup>
+import PricingTable from "./components/PricingTable.vue";
+</script>

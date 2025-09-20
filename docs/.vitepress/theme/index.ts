@@ -3,7 +3,8 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
-import './base.css'
+import './layoutComponent.css'
+import './ESUN-DS_admin.css'
 
 export default {
   extends: DefaultTheme,

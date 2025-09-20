@@ -1,0 +1,29 @@
+// @use "./variables" as *;
+@use "./global";
+@use "./mixins" as *;  
+@use "./utilities";
+
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700&display=swap&subset=chinese-traditional");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=chinese-traditional");
+//------------------------------
+//以上覆蓋
+//------------------------------
+.vp-doc a{
+    text-decoration:none;
+}
+//------------------------------
+//Base 基本樣式 d
+//------------------------------
+
+// Custom Components
+// @import "dropdowns.scss";
+// @import "navs.scss";
+// @import "buttons.scss";
+// @import "cards.scss";
+// @import "charts.scss";
+// @import "login.scss";
+// @import "error.scss";
+// @import "footer.scss";
+// Import Bootstrap
+@import "../vendor/bootstrap/css/bootstrap-grid.css";
