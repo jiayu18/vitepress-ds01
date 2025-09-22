@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.DPkH3Wt3.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/carousel.md","filePath":"uikit/carousel.md","lastUpdated":1758392182000}'),r={name:"uikit/carousel.md"};function o(s,c,i,n,d,l){return a(),t("div")}const _=e(r,[["render",o]]);export{u as __pageData,_ as default};

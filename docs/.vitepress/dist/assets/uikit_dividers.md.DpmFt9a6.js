@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as i}from"./chunks/framework.DPkH3Wt3.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/dividers.md","filePath":"uikit/dividers.md","lastUpdated":1758392182000}'),a={name:"uikit/dividers.md"};function r(s,d,o,c,n,p){return i(),t("div")}const f=e(a,[["render",r]]);export{m as __pageData,f as default};

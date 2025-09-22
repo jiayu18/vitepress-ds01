@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.DPkH3Wt3.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/tooltips.md","filePath":"uikit/tooltips.md","lastUpdated":1758392182000}'),a={name:"uikit/tooltips.md"};function s(i,r,p,c,n,d){return o(),e("div")}const m=t(a,[["render",s]]);export{_ as __pageData,m as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as i}from"./chunks/framework.DPkH3Wt3.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/timeline.md","filePath":"uikit/timeline.md","lastUpdated":1756894953000}'),a={name:"uikit/timeline.md"};function n(r,o,s,c,m,d){return i(),t("div")}const _=e(a,[["render",n]]);export{p as __pageData,_ as default};

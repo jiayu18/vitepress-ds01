@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.DPkH3Wt3.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/radio.md","filePath":"uikit/radio.md","lastUpdated":1758392182000}'),r={name:"uikit/radio.md"};function o(i,s,d,c,n,p){return a(),e("div")}const f=t(r,[["render",o]]);export{m as __pageData,f as default};

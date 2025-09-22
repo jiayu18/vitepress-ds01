@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.DPkH3Wt3.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/dropdowns.md","filePath":"uikit/dropdowns.md","lastUpdated":1758392182000}'),a={name:"uikit/dropdowns.md"};function r(s,d,n,i,p,c){return o(),e("div")}const f=t(a,[["render",r]]);export{m as __pageData,f as default};

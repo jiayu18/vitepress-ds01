@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.DPkH3Wt3.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/input.md","filePath":"uikit/input.md","lastUpdated":1758392182000}'),i={name:"uikit/input.md"};function n(r,o,s,p,c,d){return a(),e("div")}const m=t(i,[["render",n]]);export{_ as __pageData,m as default};

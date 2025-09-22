@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as s}from"./chunks/framework.DPkH3Wt3.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/steps.md","filePath":"uikit/steps.md","lastUpdated":1756894953000}'),a={name:"uikit/steps.md"};function r(o,i,p,c,n,d){return s(),e("div")}const f=t(a,[["render",r]]);export{m as __pageData,f as default};
