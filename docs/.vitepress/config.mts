@@ -12,7 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Overview', link: '/index' },
-      { text: 'Brand', link: '/brand' },
+      { text: 'Brand', link: '/brand/brand' },
       { text: 'Guildline', link: '/guildline/color' },
       { text: 'UIKit', link: '/uikit/1-1' },
       { text: 'MD檔教學', 
@@ -24,6 +24,11 @@ export default defineConfig({
       }
     ],
     sidebar: {
+      // Brand 
+      '/brand/brand': [
+        { text:'Brand 品牌介紹',link: '/brand/brand',collapsible: false,},
+        { text:'CIVI 品牌識別設計資源',link: 'https://stdesignsysdev001.z11.web.core.windows.net/DS/index.html',collapsible: false,}
+      ],
       // Guildline - Color 區
       '/guildline/color': [
         { text:'Color 顏色',link: '/color',collapsible: false,},
