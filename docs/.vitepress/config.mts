@@ -14,7 +14,7 @@ export default defineConfig({
       { text: 'Overview', link: '/index' },
       { text: 'Brand', link: '/brand/brand' },
       { text: 'Guildline', link: '/guildline/color' },
-      { text: 'UIKit', link: '/uikit/1-1' },
+      { text: 'UIKit', link: 'uikit/uikitoverview' },
       { text: 'MD檔教學', 
         items: [
           { text: '開發步驟', link: '/examples/0-2' },
@@ -41,8 +41,8 @@ export default defineConfig({
           collapsible: true,
           collapsed: true,
           items: [
-            { text: '官網', link: '/markdown-examples' },
-            { text: '行銷頁', link: '/api-examples' }
+            { text: '官網', link: '/' },
+            { text: '行銷頁', link: '/' }
           ]
         }
       ],
