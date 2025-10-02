@@ -6,11 +6,13 @@ sidebar: true
 # Buttons 按鈕
 > 按鈕是由文字及/或圖片所組成，目的是清楚地引導要觸發的動作。
 
+
 ## 按鈕規範
 ### 按鈕強調與使用頻率
+![alt text](overview/img/btn-application.jpg){width=100%}
 
 ### 網頁按鈕類型
-##### 適用平台：官網、網銀
+適用平台：官網、網銀
 <div class="table-responsive">
     <table class="table table-bordered w1000">
         <thead class="bg-primary-8">
@@ -27,13 +29,14 @@ sidebar: true
                     <p class="text-gray-11">主要按鈕</p>
                 </td>
                 <td>
-                    <img src="./overview/img/overview-uikit01.png" alt="">
+                    <img src="./overview/img/btn-primary.svg" alt="" width=60%>
+                    <img src="./overview/img/btn-primary-m.svg" alt="" width=60%>
                 </td>
                 <td>
-                    <img src="./overview/img/overview-uikit01.png" alt="">
+                    <img src="./overview/img/btn-primary-hover.svg" alt="">
                 </td>
                 <td>
-                    <img src="./overview/img/overview-uikit01.png" alt="">
+                    <img src="./overview/img/btn-primary-disable.svg" alt="">
                 </td>
             </tr>
             <tr>
