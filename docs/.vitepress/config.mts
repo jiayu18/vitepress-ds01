@@ -38,10 +38,14 @@ export default defineConfig({
         { text:'Illustration 插圖',link: '/illustration',collapsible: false,},
         {
           text: 'Layout 佈局',
-          collapsible: true,
-          collapsed: true,
+          collapsible: false ,
           items: [
-            { text: '官網', link: '/' },
+            { text: '官網', link: '' ,collapsible: true,collapsed: true,
+              items: [
+                { text: '官網區塊A', link: 'https://www.figma.com/design/omxTr5PtVk1GtGg4RkQJlM/layout%E7%9B%A4%E9%BB%9E?node-id=1-55&m=dev' },
+                { text: 'B', link: '/' }
+              ]
+            },
             { text: '行銷頁', link: '/' }
           ]
         }

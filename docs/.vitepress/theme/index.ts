@@ -11,8 +11,14 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
     })
+    
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    router.onAfterRouteChanged = (to) => {
+      if (typeof window !== 'undefined') {
+        document.documentElement.classList.remove('dark')
+        localStorage.setItem('vitepress-theme-appearance', 'light')
+      }
+    }
   }
 } satisfies Theme
