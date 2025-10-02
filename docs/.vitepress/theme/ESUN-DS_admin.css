@@ -4,12 +4,18 @@
 .vp-doc a {
   text-decoration: none;
 }
-
+.vp-doc tr:nth-child(2n){
+  background-color:#fff;
+}
+.vp-doc th {
+    color: #fff;
+}
 :root {
   --vp-c-indigo-1: #00a19b;
   --vp-c-indigo-2: #1cada4;
   --vp-c-indigo-3: #5fc7b9;
   --vp-c-bg-alt:#F4F8FA;
+  --vp-c-bg-soft:#00a19b;
 }
 
 .dark {
