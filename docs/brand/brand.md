@@ -54,5 +54,5 @@ sidebar: true
 </div>
 
 <script setup>
-import PricingTable from "../components/PricingTable.vue";
+// import PricingTable from "../components/xxx.vue";
 </script>

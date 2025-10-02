@@ -2,7 +2,7 @@
   width: 200px;
   height: 65px;
   border-radius: 0.25rem;
-  color: #ffffff;
+  color: #ffffff!important;
   background-color: #00a19b;
   display: -webkit-box;
   display: -ms-flexbox;
