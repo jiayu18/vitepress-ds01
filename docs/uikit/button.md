@@ -90,8 +90,8 @@ sidebar: true
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-pack: center;
   text-decoration: none !important;
   border: none;
   margin: 8px;
