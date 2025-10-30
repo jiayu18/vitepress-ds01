@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.RqKLfA-Y.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uikit/filters.md","filePath":"uikit/filters.md","lastUpdated":1758392182000}'),r={name:"uikit/filters.md"};function s(i,o,c,n,d,f){return a(),e("div")}const _=t(r,[["render",s]]);export{p as __pageData,_ as default};

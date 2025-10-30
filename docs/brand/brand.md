@@ -53,6 +53,32 @@ sidebar: true
   </div>
 </div>
 
+## 簡約 - 簡單明瞭{.color-gray-7}
+### 在<span class="color-blue-6">數位服務</span>上詮釋「簡約」
+- 在產品/服務資訊、功能呈現上，分類邏輯一致，層級、架構清楚易懂  
+- 盡最大努力讓顧客操作流程精簡，省時省心不費力  
+- 沒有過多的形容詞，簡潔、重點、一目瞭然  
+
+### 在<span class="color-primary-5">設計</span>上詮釋「簡約」
+- 配色層次清楚，以留白為主沒有過多裝飾  
+- 在排版上規範明確的文字大小、行距以及字重，確保資訊的閱讀性  
+- 使用有規則的格線系統，不僅能讓畫面具有整齊性，也能引導視覺流向，讓使用者更流暢地接收資訊  
+
+> 範例：以顧客角度為出發點，資訊層級應以直覺式的分類呈現
+
+<div class="container mx-auto my-8 px-4">
+  <div class="row">
+    <div class="col-sm-12 col-lg-6">
+        <h4 style="color: #009973;">正確範例︎ ✓</h4>
+        <img src="./img/brand-05.png" alt="正確範例圖示">
+    </div>
+    <div class="col-sm-12 col-lg-6">
+        <h4 style="color: #C92E34;">錯誤範例 ︎✘</h4>
+        <img src="./img/brand-06.png" alt="錯誤範例圖示">
+    </div>
+  </div>
+</div>
+
 <script setup>
 // import PricingTable from "../components/xxx.vue";
 </script>

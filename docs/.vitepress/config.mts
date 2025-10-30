@@ -30,23 +30,35 @@ export default defineConfig({
         { text:'CIVI 品牌識別設計資源',link: 'https://stdesignsysdev001.z11.web.core.windows.net/DS/index.html',collapsible: false,}
       ],
       // Guildline - Color 區
-      '/guildline/color': [
-        { text:'Color 顏色',link: '/color',collapsible: false,},
-        { text:'Typography 字體',link: '/typography',collapsible: false,},
-        { text:'Icon 圖示',link: '/icon',collapsible: false,},
-        { text:'Photo 照片',link: '/photo',collapsible: false,},
-        { text:'Illustration 插圖',link: '/illustration',collapsible: false,},
+      '/guildline/': [
+        { text:'Color 顏色',link: '/guildline/color',collapsible: false,},
+        { text:'Typography 字體',link: '/guildline/typography',collapsible: false,},
+        { text:'Icon 圖示',link: '/guildline/icon',collapsible: false,},
+        { text:'Photo 照片',link: '/guildline/photo',collapsible: false,},
+        { text:'Illustration 插圖',link: '/guildline/illustration',collapsible: false,},
         {
           text: 'Layout 佈局',
           collapsible: false ,
           items: [
             { text: '官網', link: '' ,collapsible: true,collapsed: true,
               items: [
-                { text: '官網區塊A', link: 'https://www.figma.com/design/omxTr5PtVk1GtGg4RkQJlM/layout%E7%9B%A4%E9%BB%9E?node-id=1-55&m=dev' },
-                { text: 'B', link: '/' }
+                { text: '規範', link: '/' },
+                { text: '版型', link: 'https://www.figma.com/design/omxTr5PtVk1GtGg4RkQJlM/layout%E7%9B%A4%E9%BB%9E?node-id=1-55&m=dev' },
               ]
             },
-            { text: '行銷頁', link: '/' }
+
+            { text: '行銷頁', link: '' ,collapsible: true,collapsed: true,
+              items: [
+                { text: '規範', link: '/' },
+                { text: '版型', link: 'https://www.figma.com/design/omxTr5PtVk1GtGg4RkQJlM/layout%E7%9B%A4%E9%BB%9E?node-id=1-55&m=dev' },
+              ]
+            },
+            { text: '流程頁', link: '' ,collapsible: true,collapsed: true,
+              items: [
+                { text: '規範', link: '/' },
+                { text: '版型', link: 'https://www.figma.com/design/omxTr5PtVk1GtGg4RkQJlM/layout%E7%9B%A4%E9%BB%9E?node-id=1-55&m=dev' },
+              ]
+            }
           ]
         }
       ],
