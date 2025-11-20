@@ -7,3 +7,4 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 export default ({ app }) => {
   // 載入後請勿讓 bootstrap-js 直接操控由 Vue 管理的 DOM 元素
 }
+
