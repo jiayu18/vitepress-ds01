@@ -53,9 +53,9 @@ export default defineConfig({
               ]
             },
             { text: '流程頁', link: '' ,collapsible: true,collapsed: true,
-              items: [
-                { text: '規範', link: '/' },
-                { text: '版型', link: 'https://www.figma.com/design/omxTr5PtVk1GtGg4RkQJlM/layout%E7%9B%A4%E9%BB%9E?node-id=1-55&m=dev' },
+           items: [
+                { text: '流程頁Figma', link: 'https://www.figma.com/design/omxTr5PtVk1GtGg4RkQJlM/layout%E7%9B%A4%E9%BB%9E?node-id=1-55&m=dev' },
+                { text: '流程頁規範', link: '/guildline/layout-ProcessPage' }
               ]
             }
           ]
