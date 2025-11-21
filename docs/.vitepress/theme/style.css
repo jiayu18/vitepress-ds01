@@ -40,6 +40,7 @@
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
+  --vp-code-copy-code-bg:#fff!important;
 }
 
 /**
@@ -60,6 +61,13 @@
     #BDE3E2 50%
   );
   --vp-home-hero-image-filter: blur(44px);
+  --vp-layout-max-width: 100%;
+}
+.content-container,.VPDoc.has-aside .content-container{
+  max-width: 796px!important;
+}
+.aside{
+  max-width: 100px!important;
 }
 
 @media (min-width: 640px) {

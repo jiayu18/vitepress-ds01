@@ -335,7 +335,7 @@ sidebar: true
             </div>
             <div class="row justify-content-between align-items-baseline  p-3">
                 <div class="col-lg-6 mb-3">
-                    <h6 class="mb-3"><span
+                    <h6 class="mb-3" style="height:76px;"><span
                             class="text-green-6 d-block">誠信綠/貸款</span>信賴可靠，貸你踏實築夢，成為人生堅實的靠山
                     </h6>
                     <!-- $green-1 -->
@@ -430,7 +430,7 @@ sidebar: true
                     </div>
                 </div>
                 <div class="col-lg-6 mb-3">
-                    <h6 class="mb-3"><span
+                    <h6 class="mb-3" style="height:76px;"><span
                             class="text-yellow-6 d-block">清新黃/數位帳戶&會員類別&行動銀行</span>簡單清新，開啟數位簡單生活的鑰匙
                     </h6>
                     <!-- $yellow-1 -->
@@ -525,7 +525,7 @@ sidebar: true
                     </div>
                 </div>
                 <div class="col-lg-6 mb-3">
-                    <h6 class="mb-3"><span
+                    <h6 class="mb-3" style="height:76px;"><span
                             class="text-orange-6 d-block">暖暮橘/理財</span>有溫度、專屬的數位理財服務，開創人生的新局
                     </h6>
                     <!-- $orange-1 -->
@@ -620,7 +620,7 @@ sidebar: true
                     </div>
                 </div>
                 <div class="col-lg-6 mb-3">
-                    <h6 class="mb-3"><span class="text-red-6 d-block">熱情紅/信用卡</span>熱情自信，在喜歡的事物上燃燒熱情
+                    <h6 class="mb-3" style="height:76px;"><span class="text-red-6 d-block">熱情紅/信用卡</span>熱情自信，在喜歡的事物上燃燒熱情
                     </h6>
                     <!-- $red-1 -->
                     <div
@@ -705,7 +705,7 @@ sidebar: true
                     </div>
                 </div>
                 <div class="col-lg-6 mb-3">
-                    <h6 class="mb-3"><span
+                    <h6 class="mb-3" style="height:76px;"><span
                             class="text-blue-6 d-block">科技藍/外匯</span>自由自在，讓外匯作為徜徉大海和天空的通行證
                     </h6>
                     <!-- $blue-1 -->
@@ -800,7 +800,7 @@ sidebar: true
                     </div>
                 </div>
                 <div class="col-lg-6 mb-3">
-                    <h6 class="mb-3"><span class="text-pink-6 d-block">活力桃/玉山證券</span>活力創新，開啟投資第一步
+                    <h6 class="mb-3" style="height:76px;"><span class="text-pink-6 d-block">活力桃/玉山證券</span>活力創新，開啟投資第一步
                     </h6>
                     <!-- $pink-1 -->
                     <div
@@ -900,41 +900,34 @@ sidebar: true
 
 <script setup>
 import { onMounted, onBeforeUnmount } from 'vue'
+import ClipboardJS from 'clipboard'
 
 let clipboardInstance = null
 
-function initClipboard() {
-    const ClipboardLib = window.ClipboardJS || window.Clipboard
-    if (!ClipboardLib) return
-
-    clipboardInstance = new ClipboardLib('.btn-copy', {
-        text: (trigger) => {
-            const target = trigger.getAttribute('data-clipboard-target')
-            const el = document.querySelector(target)
-            return el ? el.textContent.trim() : ''
-        }
-    })
-}
 onMounted(() => {
-    // Load the plain script only in browser (avoids SSR errors)
-    const existing = document.querySelector('script[data-vendor="clipboard"]')
-    if (existing) {
-        if (window.ClipboardJS || window.Clipboard) initClipboard()
-        return
+  clipboardInstance = new ClipboardJS('.btn-copy', {
+    text: (trigger) => {
+      const target = trigger.getAttribute('data-clipboard-target')
+      const el = document.querySelector(target)
+      return el ? el.textContent.trim() : ''
     }
+  })
 
-    const script = document.createElement('script')
-    script.setAttribute('data-vendor', 'clipboard')
-    script.src = '/vendor/clipboard/clipboard.min.js'
-    script.async = false
-    script.onload = () => initClipboard()
-    script.onerror = (e) => console.warn('failed to load clipboard script', e)
-    document.head.appendChild(script)
+  clipboardInstance.on('success', (e) => {
+    console.log('Copy successful:', e)
+    alert('已複製：' + e.text)  // 顯示複製成功並帶出複製的文字
+    e.clearSelection()
+  })
+
+  clipboardInstance.on('error', (e) => {
+    console.warn('Copy failed:', e)
+  })
 })
+
 onBeforeUnmount(() => {
-    if (clipboardInstance && typeof clipboardInstance.destroy === 'function') {
-        clipboardInstance.destroy()
-        clipboardInstance = null
-    }
+  if (clipboardInstance) {
+    clipboardInstance.destroy()
+    clipboardInstance = null
+  }
 })
 </script>
